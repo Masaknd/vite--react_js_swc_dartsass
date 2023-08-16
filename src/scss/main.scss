@@ -1,16 +1,7 @@
-@import 'abstract/mixin';
-@import 'abstract/variables';
+@use "./base";
+@use "./components";
+@use "./foundation";
+@use "./global";
+@use "./layout";
 
-@import 'base/base';
-@import 'base/typography';
-@import 'base/utilities';
-
-@import 'components/button';
-@import 'components/vite-default';
-
-@import 'layout/header';
-@import 'layout/feature';
-@import 'layout/contact';
-@import 'layout/footer';
-
-@import 'pages/home';
+@use "./pages/home"
