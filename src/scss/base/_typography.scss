@@ -25,6 +25,16 @@
 //   color: $color-black;
 // }
 
+/* 使える日本語フォント
+** ヒラギノ、游ゴシック、Noto Sans(CJK)JP、その他Webフォントなど、Photoshopで「メトリクス」が効くフォントは使えます。
+** メイリオやMS Pゴシックはプロポーショナルなので使えません。
+*/
+// p {
+//   font-feature-settings: "palt";    //プロポーショナルメトリクス
+//   // font-feature-settings: "pwid"; //プロポーショナル字形：約物はそのままで文字詰め。行頭全角スペースも詰まる
+//   // font-feature-settings: "pkna"; //プロポーショナルかな：かなのみ文字詰め
+// }
+
 // a {
 //   color: $color-black;
 // }
