@@ -50,7 +50,7 @@ Masaknd:
 
 ## Version History
 
-- 1.0
+- 1.0.0
 
 ## License
 
